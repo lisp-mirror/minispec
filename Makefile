@@ -26,3 +26,6 @@ style:
 
 deploy:
 	bash ./build/deploy.sh $(OUT_DIR)
+
+serve:
+	cd html && python -m SimpleHTTPServer 3000
